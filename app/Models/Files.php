@@ -1,0 +1,16 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Files extends Model
+{
+    protected $table = 'file';
+    protected $fillable = [
+        'pdf_id',
+        'url',
+        'name',
+        'state'
+    ];
+}
